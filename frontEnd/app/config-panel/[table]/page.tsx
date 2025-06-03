@@ -136,7 +136,7 @@ const handleAddAttribute = async () => {
 
   return (
     <div className={styles.table_container}>
-      <h1 className={styles.table_header}>{table[0].replace("_", " ")} Table</h1>
+      <h1 className={styles.table_header}>{(Array.isArray(table) ? table[0] : table).replace("_", " ")} Table</h1>
       <button onClick={handleAddRow} className={styles.add_row_btn}>Add Row</button>
 
       <table className={styles.data_table}>
