@@ -1,0 +1,19 @@
+{
+  "close_session": "https://192.168.1.9:3001/close-session",
+  "ip_messages": "https://192.168.1.9:3001/messages",
+  "start_session": "https://192.168.1.9:3001/start-session",
+  "upload_json": "https://192.168.1.9:3001/upload_json",
+  "answers": "https://192.168.1.9:3001/answers",
+  "upload_sqlite": "https://192.168.1.9:3001/upload-sqlite",
+  "pre":"https://192.168.1.9:3001/pre",
+  "prof": "https://192.168.1.9:3001/prof",
+  "question": "https://192.168.1.9:3001/question",
+  "courses": "https://192.168.1.9:3001/courses",
+  "fetch": "https://192.168.1.9:3001/fetch",
+  "professor": "https://192.168.1.9:3001/professor",
+  "get_table":"https://192.168.1.9:3001",
+  "get_json": "https://192.168.1.9:3001/get_json",
+  "save_json": "https://192.168.1.9:3001/save_json",
+  "list_json_files":"https://192.168.1.9:3001/list_json_files",
+  "API_BASE": "https://192.168.1.9:3001"
+}

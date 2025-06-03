@@ -1,0 +1,170 @@
+.rce-container-input {
+    min-width: 90% !important;
+}
+.rce-mbox-body{
+    background-color: var(--background-color) !important;
+}
+.rce-mlist{
+     padding-top: 15px !important;
+}
+.rce-mbox{
+    max-width:60% !important;
+}
+.rce-mbox{
+     background-color: var(--background-color) !important;
+}
+.rce-mbox-left-notch{
+    fill: var(--background-color) !important;
+}
+.rce-mbox-right-notch{
+     fill: var(--background-color) !important;
+}
+.chatstyle_dropdownList__fc5o6{
+    background-color: var(--background-color) !important;
+}
+.rce-mbox-title{
+    color:black !important;
+}
+rce-mbox-text.right {
+    max-width: 60% !important;
+}
+.rce-mbox.rce-mbox-right {
+    max-width: 60% !important;
+}
+.rce-mbox-text left {
+    max-width: 60% !important;
+}
+.rce-mbox.rce-mbox-left {
+    max-width: 60% !important;
+}
+:root {
+  --message-text-light: #000;
+  --message-text-dark: #000;
+}
+.message {
+  color: var(--message-text-light);
+}
+
+.dark-mode .message {
+  color: var(--message-text-dark);
+}
+
+html, body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container, main {
+  background-color: inherit; /* يستخدم لون الخلفية من الـ body */
+}
+
+/* الوضع الفاتح */
+.light-mode {
+  --background-color: var(--background-light);
+  --text-color: black;
+}
+
+/* الوضع الداكن */
+.dark-mode {
+  --background-color: var(--background-dark);
+  --text-color: white;
+}
+
+/* ألوان الثيمات */
+:root {
+  --background-light: white; /* لون الوضع الفاتح */
+  --background-dark: #000000; /* لون الوضع الداكن */
+  /* تعريف ألوان لكل وضع */
+  --mov-light: #CDC1FF;
+  --mov-dark: #A294F9;
+
+  --blue-light: #0282D3;
+  --blue-dark: #0258BE;
+
+  --bage-light: #D7D3BF;
+  --bage-dark: #A59D84;
+
+   --babygreen-light: #709cb4;
+  --babygreen-dark: #2e4a5d;
+
+  --white-light: white;
+  --white-dark: #000000;
+
+  --green-light: #DCF8C6 ;
+  --green-dark: #075E54;
+
+  --red-light: #F8BBD0;
+  --red-dark: #B71C1C;
+
+  --purple-light: #9C27B0;
+  --purple-dark: #6A1B9A;
+}
+
+/* لون الثيم: لافندر */
+.theme-mov.light-mode {
+  --background-color: var(--mov-light);
+}
+.theme-mov.dark-mode {
+  --background-color: var(--mov-dark);
+}
+
+/* لون الثيم: لبني */
+.theme-blue.light-mode {
+  --background-color: var(--blue-light);
+}
+.theme-blue.dark-mode {
+  --background-color: var(--blue-dark);
+}
+
+/* لون الثيم: بيج */
+.theme-bage.light-mode {
+  --background-color: var(--bage-light);
+}
+.theme-bage.dark-mode {
+  --background-color: var(--bage-dark);
+}
+/* لون الثيم: اخضر */
+.theme-babygreen.light-mode {
+  --background-color: var(--babygreen-light);
+}
+.theme-babygreen.dark-mode {
+  --background-color: var(--babygreen-dark);
+}
+/* لون الثيم: بينك */
+.theme-green.light-mode {
+  --background-color: var(--green-light);
+}
+.theme-green.dark-mode {
+  --background-color: var(--green-dark);
+}
+/* لون الثيم: احمر */
+.theme-red.light-mode {
+  --background-color: var(--red-light);
+}
+.theme-red.dark-mode {
+  --background-color: var(--red-dark);
+}
+/* لون الثيم: بنفسجي */
+.theme-purple.light-mode {
+  --background-color: var(--purple-light);
+}
+.theme-purple.dark-mode {
+  --background-color: var(--purple-dark);
+}
+
+/* روابط */
+a:-webkit-any-link {
+  color: var(--text-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* تطبيق الألوان على body */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}

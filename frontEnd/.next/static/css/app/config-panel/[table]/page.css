@@ -1,0 +1,144 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/config-panel/[table]/table.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.table_table_container__4gRJ7 {
+  padding: 30px;
+}
+
+.table_table_header__6SoHz {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.table_add_row_btn__30JvV {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table_add_row_btn__30JvV:hover {
+  background-color: #45a049;
+}
+
+.table_data_table___bF_O {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table_table_header_cell__FH30v {
+  border: 1px solid #ccc;
+  padding: 12px;
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.table_actions_column__Qn5c_ {
+  width: 150px;
+}
+
+.table_input_row__4BuJE input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.table_input_field__I6iPN {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.table_table_cell__VEawd {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.table_save_btn__IKNk5, .table_edit_btn__Bn2B4, .table_delete_btn__v6zyu {
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table_save_btn__IKNk5 {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.table_edit_btn__Bn2B4 {
+  background-color: #FFC107;
+  color: white;
+  border: none;
+}
+
+.table_delete_btn__v6zyu {
+  background-color: #F44336;
+  color: white;
+  border: none;
+}
+
+.table_save_btn__IKNk5:hover {
+  background-color: #45a049;
+}
+
+.table_edit_btn__Bn2B4:hover {
+  background-color: #e0a800;
+}
+
+.table_delete_btn__v6zyu:hover {
+  background-color: #e31b0b;
+}
+.table_loading_container__hxohp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.table_loading_spinner__dCN5U {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: table_spin__5zj3o 2s linear infinite;
+}
+
+@keyframes table_spin__5zj3o {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.table_add_attr_btn__hDm3I {
+  margin-bottom: 10px;
+  padding: 8px 14px;
+  background-color: #8e44ad;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.table_attr_input_container__Hyro8 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.table_confirm_attr_btn__viUx5 {
+  padding: 6px 12px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
