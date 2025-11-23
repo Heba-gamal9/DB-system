@@ -1,4 +1,4 @@
-// File: D:\كشافة الامل\DB-system-scout\frontend\app\config-panel\[table]\page.tsx
+// File: D:\كشافة الامل\DB-system\frontEnd\app\config-panel\[table]\page.tsx
 import * as entry from '../../../../../app/config-panel/[table]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

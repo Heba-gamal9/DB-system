@@ -232,8 +232,8 @@ if __name__ == '__main__':
     http_server = WSGIServer(
         ('0.0.0.0', 3001),
         scout,
-        keyfile=r"D:\كشافة الامل\DB-system-scout\private.key",
-        certfile=r"D:\كشافة الامل\DB-system-scout\cert.crt"
+        keyfile=r"D:\كشافة الامل\DB-system\private.key",
+        certfile=r"D:\كشافة الامل\DB-system\cert.crt"
     )
     try:
         print("Starting server...")

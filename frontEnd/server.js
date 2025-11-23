@@ -10,8 +10,8 @@ const app = next({ dev });
 const handle = app.getRequestHandler();
 
 const options = {
-  key: fs.readFileSync('D:/كشافة الامل/DB-system-scout/private.key'), // ملف الشهادة الخاصة
-  cert: fs.readFileSync('D:/كشافة الامل/DB-system-scout/cert.crt'),    // ملف الشهادة
+  key: fs.readFileSync('D:/كشافة الامل/DB-system/private.key'), // ملف الشهادة الخاصة
+  cert: fs.readFileSync('D:/كشافة الامل/DB-system/cert.crt'),    // ملف الشهادة
 };
 
 app.prepare().then(() => {
